@@ -1,8 +1,7 @@
+import React from 'react';
 import './style.css';
-import { palettes } from './palettes';
+import { palettes } from '../../palettes';
 import { SchemeColor } from '../schemeColor';
-
-
 
 
 export const Palette = ({name, description,image,url,nameAtr,direction,idx}) => { 

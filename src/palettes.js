@@ -40,7 +40,7 @@ export const palettes = [
       url: 'https://unsplash.com/photos/2KXEb_8G5vo',
     },
     colors: ['#8689ac', '#587099', '#3f5576', '#2f3148', '#101116'],
-    direction: 'vertical',
+    direction: 'horizontal',
     description: 'A nightly and mysterious combination of shades of blue, which includes pale blue, green-blue, midnight blue, personifies the word “mystery”. But this riddle is permeated with a cold that penetrates deep into your mind, preventing you from getting too close to understanding what this palette is fraught with and why it sinks into your head so much.',
   },
 ];
