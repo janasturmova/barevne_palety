@@ -14,14 +14,15 @@ const App = () => {
       <main>
         {palettes.map((item,index) => (
           <Palette 
-          key={palettes[index].name}
-          name={palettes[index].name}
-          description={palettes[index].description}
-          image={palettes[index].image}
-          url={palettes[index].attribution.url}
-          nameAtr={palettes[index].attribution.name}
-          direction={palettes[index].direction}
+          key={item.name}
+          name={item.name}
+          description={item.description}
+          image={item.image}
+          url={item.attribution.url}
+          nameAtr={item.attribution.name}
+          direction={item.direction}
           idx={index}
+          data={palettes}
           />
         ))}
       </main>

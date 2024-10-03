@@ -1,16 +1,15 @@
 import React from 'react';
 import './style.css';
-import { palettes } from '../../palettes';
 import { SchemeColor } from '../schemeColor';
 
 
-export const Palette = ({name, description,image,url,nameAtr,direction,idx}) => { 
+export const Palette = ({name, description,image,url,nameAtr,direction,idx,data}) => { 
       return (
         <div className="palette">
             <div className={`palette-scheme palette-scheme--${direction}`}>
                 <img className="scheme-image" src={image} alt={name} />
                 <div className="scheme-colors">
-                  {palettes[idx].colors.map(item =>(
+                  {data[idx].colors.map(item =>(
                       <SchemeColor
                       key={item}
                       color={item}/>
